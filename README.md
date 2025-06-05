@@ -13,7 +13,7 @@ curl -X POST https://identity-reconciliation-service-1.onrender.com/api/identify
 
 # You should receive a JSON response like:
 
-```{
+{
     "primaryContactId": 2,
     "emails": [
         "mcfly@hillvalley.edu"
@@ -25,7 +25,7 @@ curl -X POST https://identity-reconciliation-service-1.onrender.com/api/identify
     "secondaryContactIds": [
         3
     ]
-}```
+}
 
 2)
 
