@@ -3,6 +3,8 @@
 
 1) https://identity-reconciliation-service-1.onrender.com/api/identify
 
+## CURL: 
+
 ```curl -X POST https://identity-reconciliation-service-1.onrender.com/api/identify \
   -H "Content-Type: application/json" \
   -d '{"email": "mcfly@hillvalley.edu", "phoneNumber": "123456"}'```
@@ -25,7 +27,11 @@
     ]
 }```
 
-2)curl -X GET https://identity-reconciliation-service-1.onrender.com/api/contacts
+2)
+
+## CURL 
+
+curl -X GET https://identity-reconciliation-service-1.onrender.com/api/contacts
 
 # You should receive a JSON response like:
 
