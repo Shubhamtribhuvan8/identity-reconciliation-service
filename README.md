@@ -5,9 +5,9 @@
 
 ## CURL: 
 
-```curl -X POST https://identity-reconciliation-service-1.onrender.com/api/identify \
+curl -X POST https://identity-reconciliation-service-1.onrender.com/api/identify \
   -H "Content-Type: application/json" \
-  -d '{"email": "mcfly@hillvalley.edu", "phoneNumber": "123456"}'```
+  -d '{"email": "mcfly@hillvalley.edu", "phoneNumber": "123456"}'
 
 
 
